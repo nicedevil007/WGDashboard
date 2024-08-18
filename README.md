@@ -75,7 +75,7 @@
       * [Ubuntu 22.04 LTS & Ubuntu 24.02 LTS](#ubuntu-2204-lts--ubuntu-2402-lts)
       * [Debian 12.6](#debian-126)
       * [Debian 11.10](#debian-1110)
-      * [Red Hat Enterprise Linux 9.4 & CentOS 9-Stream](#red-hat-enterprise-linux-94--centos-9-stream)
+      * [Red Hat Enterprise Linux 9.4 & CentOS 9-Stream & AlmaLinux](#red-hat-enterprise-linux-94--centos-9-stream--almalinux-94)
       * [Fedora 40 & Fedora 39 & Fedora 38](#fedora-40--fedora-39--fedora-38)
     * [Manual Installation](#manual-installation)
   * [🪜 Usage](#-usage)
@@ -226,7 +226,7 @@ sudo echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf && \
 sudo sysctl -p /etc/sysctl.conf
 ```
 
-#### Red Hat Enterprise Linux 9.4 & CentOS 9-Stream
+#### Red Hat Enterprise Linux 9.4 & CentOS 9-Stream & AlmaLinux 9.4
 
 ```shell
 sudo yum install wireguard-tools net-tools git python3.11 -y && \
